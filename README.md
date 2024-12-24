@@ -193,3 +193,9 @@ Here’s a breakdown of how the function works:
 4. **Warnings and User Feedback**  
    If the user selects a column with too many unique values for a particular chart type (e.g., more than 20 unique values for a bar chart), the function will display a warning. This ensures that the user can make informed decisions about which visualization type to use.
 
+
+### 13. **Download Processed Data**
+- **Download Data**: 
+  - Once you’ve processed and cleaned your data, you can download it in your preferred format (CSV or Excel) by clicking the "Download Processed Data" button in the sidebar.
+  - This allows you to use the cleaned and transformed data for further analysis or to share it with others.
+

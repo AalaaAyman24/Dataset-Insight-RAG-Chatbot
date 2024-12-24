@@ -8,7 +8,7 @@ Welcome to the *Streamlit Dataset Processing and Retrieval Augmented Generation 
 
 ## Demo Video
 
-[![Demo Video!([images/demo-thumbnail.png](https://github.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot/blob/main/Demo%20Video/Demo%20Video.png))](https://github.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot/blob/main/Demo%20Video/Data%20Quality%20Project.mp4)
+[![Demo Video](https://raw.githubusercontent.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot/main/Demo%20Video/Demo%20Video.png)](https://github.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot/raw/main/Demo%20Video/Data%20Quality%20Project.mp4)
 
 
  ---

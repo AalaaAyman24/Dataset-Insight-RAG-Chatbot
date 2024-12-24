@@ -107,7 +107,7 @@ Once the application is installed, you can run it using the following command:
   - *Label Encoding*:  
     - Converts categories to numerical values, assigning each category a unique integer, which can be useful for machine learning models that require numeric input.
 
-### 9. **Handle Missing Values**  
+### 9. *Handle Missing Values* 
 The `handle_missing_values` function provides several methods to handle missing values in your dataset. You can choose from the following options:
 
 - **Drop**:  
@@ -125,7 +125,7 @@ The `handle_missing_values` function provides several methods to handle missing 
 > **After Preview**: The preview shows how the dataset will look after handling missing values (either by dropping rows or filling them). You can inspect the changes before confirming. Once you're happy with the preview, click "OK" to apply the action.
 
 
-### 10. **Handle Duplicates**  
+### 10. *Handle Duplicates*  
 The `handle_duplicates` function provides methods to manage duplicate rows in your dataset. You can choose one of the following options:
 
 - **Drop Duplicates in Column**:  
@@ -140,7 +140,7 @@ The `handle_duplicates` function provides methods to manage duplicate rows in yo
 > **After Preview**: A preview of the dataset is displayed, showing the effect of removing or keeping duplicates. You can review the changes before applying them. Once you're satisfied with the preview, click "OK" to apply the changes to your data.
 
 
-### 11. **Handle Outliers**  
+### 11. *Handle Outliers* 
 The `handle_outliers` function provides methods to identify and manage outliers in numerical columns. The following options are available:
 
 - **Remove Outliers (IQR)**:  
@@ -155,7 +155,7 @@ The `handle_outliers` function provides methods to identify and manage outliers 
 > **After Preview**: Preview the effect of handling outliers on your dataset. You can review how removing or replacing outliers will affect your data. Once satisfied, click "OK" to apply the changes.
 
 
-### 12. **Data Visualization**
+### 12. *Data Visualization*
 
 The `visualize_data()` function provides a simple way to visualize various aspects of your dataset through different types of charts. It allows you to interactively select chart types and columns, making it easy to explore your data visually.
 
@@ -194,12 +194,12 @@ Here’s a breakdown of how the function works:
    If the user selects a column with too many unique values for a particular chart type (e.g., more than 20 unique values for a bar chart), the function will display a warning. This ensures that the user can make informed decisions about which visualization type to use.
 
 
-### 13. **Download Processed Data**
+### 13. *Download Processed Data*
 - **Download Data**: 
   - Once you’ve processed and cleaned your data, you can download it in your preferred format (CSV or Excel) by clicking the "Download Processed Data" button in the sidebar.
   - This allows you to use the cleaned and transformed data for further analysis or to share it with others.
 
-### 14. **RAG Chatbot Integration**
+### 14. *RAG Chatbot Integration*
 
 The **RAG (Retrieval Augmented Generation) Chatbot** is integrated into this application to provide an interactive way to ask questions about your dataset. You can use the chatbot to get instant answers and insights about your data without needing to manually analyze it. The chatbot uses advanced language models to generate relevant responses based on your queries.
 

@@ -1,6 +1,6 @@
 ---
 
-# Dataset-Insight-RAG-Chatbot
+# Dataset-Insight-RAG-Chatbot 📊🤖
 
 Welcome to the *Streamlit Dataset Processing and Retrieval Augmented Generation (RAG) Chatbot* project! This application provides a powerful and user-friendly interface for preprocessing datasets, visualizing data, and interacting with a chatbot to answer queries about your dataset.
 

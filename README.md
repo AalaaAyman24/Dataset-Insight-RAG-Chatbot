@@ -154,3 +154,42 @@ The `handle_outliers` function provides methods to identify and manage outliers 
 
 > **After Preview**: Preview the effect of handling outliers on your dataset. You can review how removing or replacing outliers will affect your data. Once satisfied, click "OK" to apply the changes.
 
+
+### 12. **Data Visualization**
+
+The `visualize_data()` function provides a simple way to visualize various aspects of your dataset through different types of charts. It allows you to interactively select chart types and columns, making it easy to explore your data visually.
+
+Here’s a breakdown of how the function works:
+
+1. **Chart Type Selection**  
+   The user is prompted to select the type of chart they would like to visualize. Available chart options include:
+   - **Bar Chart**
+   - **Histogram**
+   - **Boxplot**
+   - **Doughnut Chart**
+   - **Pie Chart**
+
+2. **Column Selection**  
+   After selecting the chart type, the user is asked to choose a numerical column from the dataset to visualize. The available columns are automatically filtered to only include numerical columns.
+
+3. **Generating and Displaying Charts**  
+   Based on the selected chart type and column, the function generates the respective chart and displays it. Here’s how each chart type is handled:
+
+   - **Bar Chart**  
+     A bar chart is suitable for visualizing the frequency of categorical data or counts of unique values in a column. However, it’s not recommended if the column has more than 20 unique values, as the chart can become cluttered. If the selected column has fewer than 20 unique values, a bar chart is generated, showing the frequency of each category.
+
+   - **Histogram**  
+     A histogram is used to display the distribution of numerical data. It is especially useful for understanding the spread and frequency of values in a dataset. Histograms require at least 10 unique values to be meaningful, and if the selected column meets this condition, a histogram is generated.
+
+   - **Boxplot**  
+     A boxplot visualizes the distribution of data through quartiles, showing the median, upper, and lower quartiles, as well as any outliers. A boxplot requires at least 5 unique values to show a proper distribution. If this condition is met, a boxplot is generated.
+
+   - **Doughnut Chart**  
+     A doughnut chart is similar to a pie chart but with a hole in the center, giving it a donut-like appearance. This chart is useful for visualizing proportions of categorical data but is recommended only when the column has fewer than 5 unique values.
+
+   - **Pie Chart**  
+     Like the doughnut chart, a pie chart shows the proportion of different categories in a dataset. It is most effective with fewer than 5 unique values to avoid overcrowding the chart.
+
+4. **Warnings and User Feedback**  
+   If the user selects a column with too many unique values for a particular chart type (e.g., more than 20 unique values for a bar chart), the function will display a warning. This ensures that the user can make informed decisions about which visualization type to use.
+

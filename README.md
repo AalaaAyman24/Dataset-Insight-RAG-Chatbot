@@ -38,7 +38,7 @@ Make sure you have Python 3.6+ installed on your system.
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot.git
-   cd streamlit-dataset-processing-rag-chatbot
+   cd Dataset-Insight-RAG-Chatbot
    ```
 
 2. **Create a virtual environment (optional but recommended)**:

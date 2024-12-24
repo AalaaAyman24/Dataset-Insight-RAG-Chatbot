@@ -258,3 +258,6 @@ For any inquiries or feedback, please contact:
 ---
 
 Thank you for using the **Streamlit Dataset Processing and RAG Chatbot** application!🙌🏻
+
+---
+

@@ -66,3 +66,43 @@ Once the application is installed, you can run it using the following command:
 2. Open your browser and go to `http://localhost:8501` to start using the application.
 
 ---
+
+### After you have run the application, follow these steps to interact with your data and use all the available features:
+
+### 1. *Upload Your Dataset*
+- *Upload Data*:  
+  - Use the sidebar to upload a CSV or Excel file by clicking the "Upload" button.  
+  - The application automatically validates the uploaded file format to ensure it’s ready for processing.
+
+### 2. *Preview Your Data*
+- *View and check your data before processing*:  
+  - The first few rows of your dataset are displayed to help you verify and inspect the data before making any modifications.
+
+### 3. *Data Cleaning*
+- *Ensure correct data types for numeric columns*:  
+  - Automatically detects and corrects data types for numeric columns to avoid errors during processing.  
+- *Displays unique values for categorical features*:  
+  - Helps identify any inconsistencies or anomalies in categorical columns by showing all unique values.
+
+### 4. *Modify Column Names*
+- *Easily rename columns for better clarity and consistency*:  
+  - Allows you to modify column names to make them more descriptive and easier to understand.
+
+### 5. *General Data Statistics*
+- *Get summary statistics like mean, median, and standard deviation for your dataset*:  
+  - Quickly assesses the central tendency and distribution of numerical data, helping you understand the overall structure of your dataset.
+
+### 6. *Describe Your Data*
+- *Generate detailed descriptive statistics for the dataset*:  
+  - Provides metrics such as count, minimum, maximum, and percentiles for each column to help you better understand the distribution and variability of the data.
+
+### 7. *Info About the Dataset*
+- *View detailed information about the dataset, such as data types and null values*:  
+  - Displays comprehensive information about each column, including its data type and the presence of any missing values. This is useful for cleaning and preprocessing steps.
+
+### 8. *Handle Categorical Columns*
+- *The handle_categorical function allows you to handle categorical columns using the following methods*:
+  - *One-Hot Encoding*:  
+    - Creates binary columns for each category, where each category is represented by a separate column with a 1 or 0 indicating the presence of that category in the row.
+  - *Label Encoding*:  
+    - Converts categories to numerical values, assigning each category a unique integer, which can be useful for machine learning models that require numeric input.

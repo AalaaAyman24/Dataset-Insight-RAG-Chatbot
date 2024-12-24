@@ -103,6 +103,55 @@ Once the application is installed, you can run it using the following command:
 ### 8. *Handle Categorical Columns*
 - *The handle_categorical function allows you to handle categorical columns using the following methods*:
   - *One-Hot Encoding*:  
-    - Creates binary columns for each category, where each category is represented by a separate column with a 1 or 0 indicating the presence of that category in the row.
+    - Creates binary columns for each category, where each category is represented by a separate column with a `1` or `0` indicating the presence of that category in the row.
   - *Label Encoding*:  
     - Converts categories to numerical values, assigning each category a unique integer, which can be useful for machine learning models that require numeric input.
+
+### 9. **Handle Missing Values**  
+The `handle_missing_values` function provides several methods to handle missing values in your dataset. You can choose from the following options:
+
+- **Drop**:  
+  Removes rows containing any missing values.
+
+- **Dropna**:  
+  Removes rows that specifically have null or missing entries.
+
+- **Fill Missing Values**:  
+  Allows you to fill missing values with one of the following options:
+  - **Mean**: Fills missing values with the mean value of the respective column.
+  - **Mode**: Fills missing values with the mode (most frequent value) of the column.
+  - **Median**: Fills missing values with the median value of the respective column.
+
+### 10. **Handle Duplicates**  
+The `handle_duplicates` function provides methods to manage duplicate rows in your dataset. You can choose one of the following options:
+
+- **Drop Duplicates in Column**:  
+  Removes duplicate rows based on specific columns you select. This ensures no two rows have identical values in the chosen columns.
+
+- **Keep First**:  
+  Keeps the first occurrence of each duplicate set and removes the subsequent duplicates.
+
+- **Keep Last**:  
+  Keeps the last occurrence of each duplicate set and removes the others.
+
+> **After Preview**: A preview of the dataset is displayed, showing the effect of removing or keeping duplicates. You can review the changes before applying them. Once you're satisfied with the preview, click "OK" to apply the changes to your data.
+
+
+
+> **After Preview**: The preview shows how the dataset will look after handling missing values (either by dropping rows or filling them). You can inspect the changes before confirming. Once you're happy with the preview, click "OK" to apply the action.
+
+
+### 11. **Handle Outliers**  
+The `handle_outliers` function provides methods to identify and manage outliers in numerical columns. The following options are available:
+
+- **Remove Outliers (IQR)**:  
+  Removes outliers based on the Interquartile Range (IQR). Outliers are values that lie outside this range and are removed to ensure the data remains within a reasonable range.
+
+- **Set Bounds Manually**:  
+  Allows you to manually set the upper and lower bounds for your data, removing values that fall outside the specified range.
+
+- **Replace Outliers**:  
+  Replaces outliers with a predefined value, such as the mean or median of the column, reducing their impact on the dataset.
+
+> **After Preview**: Preview the effect of handling outliers on your dataset. You can review how removing or replacing outliers will affect your data. Once satisfied, click "OK" to apply the changes.
+

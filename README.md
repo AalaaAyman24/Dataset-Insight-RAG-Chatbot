@@ -199,3 +199,62 @@ Here’s a breakdown of how the function works:
   - Once you’ve processed and cleaned your data, you can download it in your preferred format (CSV or Excel) by clicking the "Download Processed Data" button in the sidebar.
   - This allows you to use the cleaned and transformed data for further analysis or to share it with others.
 
+### 14. **RAG Chatbot Integration**
+
+The **RAG (Retrieval Augmented Generation) Chatbot** is integrated into this application to provide an interactive way to ask questions about your dataset. You can use the chatbot to get instant answers and insights about your data without needing to manually analyze it. The chatbot uses advanced language models to generate relevant responses based on your queries.
+
+There are **two options** available for using the RAG Chatbot:
+
+1. **RAG Model with Ollama (Llama 3.2:1b)**:
+   - This option utilizes the Ollama API, which is powered by the **Llama 3.2:1b** model. It is designed to offer high-performance responses and assist with data-related queries.
+   
+2. **RAG API from Hugging Face**:
+   - The second option is a free, open-access **API from Hugging Face**. This API is always available, and you get **1000 free requests** to use every month. The Hugging Face API provides another reliable way to integrate the RAG functionality, ensuring that you can still get quick insights into your dataset with minimal setup.
+
+Both options provide the same core functionality but offer different performance levels and access restrictions. You can choose the one that best suits your needs based on available requests and performance preferences.
+
+To use the RAG Chatbot, simply type your query into the chatbot interface and get immediate insights about your dataset. Whether you're interested in data patterns, statistics, or need specific information, the RAG model will respond with helpful answers based on the information it has from the dataset.
+
+---
+
+## Conclusion
+The Streamlit Dataset Processing and Retrieval Augmented Generation (RAG) Chatbot application offers a comprehensive solution for efficient dataset preprocessing, data visualization, and seamless interaction with a smart chatbot. By leveraging powerful data-cleaning, transformation, and visualization tools, users can quickly gain valuable insights into their data. The intuitive interface and advanced features, including RAG chatbot integration for automated queries, allow both novice and experienced data analysts to perform in-depth analysis with ease. Whether you're cleaning data, visualizing trends, or asking specific dataset-related questions, this application simplifies the entire process, helping you to make data-driven decisions efficiently.
+
+---
+
+## Technologies Used
+
+- **Streamlit**: For building the interactive web application.
+- **Pandas & NumPy**: 
+- Integration with additional machine learning models for advanced analytics.
+- Support for more file formats, such as JSON and Parquet.
+- Improved chatbot responses using domain-specific models.
+
+---
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push to your fork.
+4. Submit a pull request with a detailed description of your changes.
+
+---
+
+## Contact
+
+For any inquiries or feedback, please contact:
+**Aalaa Ayman**
+- Email: [aalaasalah389@gmail.com]
+- GitHub: [https://github.com/AalaaAyman24]
+
+---
+
+Thank you for using the **Streamlit Dataset Processing and RAG Chatbot** application!🙌🏻

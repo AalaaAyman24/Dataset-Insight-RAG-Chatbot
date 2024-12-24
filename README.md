@@ -28,7 +28,7 @@ Welcome to the *Streamlit Dataset Processing and Retrieval Augmented Generation 
 
 ## Installation
 
-To set up the Streamlit Dataset Processing and Retrieval Augmented Generation (RAG) Chatbot project on your local machine, follow the steps below:
+To set up this project on your local machine, follow the steps below:
 
 ### Prerequisites:
 Make sure you have Python 3.6+ installed on your system.

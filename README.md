@@ -122,6 +122,9 @@ The `handle_missing_values` function provides several methods to handle missing 
   - **Mode**: Fills missing values with the mode (most frequent value) of the column.
   - **Median**: Fills missing values with the median value of the respective column.
 
+> **After Preview**: The preview shows how the dataset will look after handling missing values (either by dropping rows or filling them). You can inspect the changes before confirming. Once you're happy with the preview, click "OK" to apply the action.
+
+
 ### 10. **Handle Duplicates**  
 The `handle_duplicates` function provides methods to manage duplicate rows in your dataset. You can choose one of the following options:
 
@@ -135,10 +138,6 @@ The `handle_duplicates` function provides methods to manage duplicate rows in yo
   Keeps the last occurrence of each duplicate set and removes the others.
 
 > **After Preview**: A preview of the dataset is displayed, showing the effect of removing or keeping duplicates. You can review the changes before applying them. Once you're satisfied with the preview, click "OK" to apply the changes to your data.
-
-
-
-> **After Preview**: The preview shows how the dataset will look after handling missing values (either by dropping rows or filling them). You can inspect the changes before confirming. Once you're happy with the preview, click "OK" to apply the action.
 
 
 ### 11. **Handle Outliers**  

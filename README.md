@@ -6,6 +6,14 @@ Welcome to the *Streamlit Dataset Processing and Retrieval Augmented Generation 
 
 ---
 
+## Demo Video
+
+[![Demo Video](https://github.com/AalaaAyman24/Dataset-Insight-RAG-Chatbot/blob/main/Demo%20Video/Data%20Quality%20Project.mp4)
+
+
+ ---
+
+
 ## Features  
 
 - **Upload**: Upload data from CSV and Excel files with automatic validation.  

@@ -28,7 +28,6 @@ Welcome to the *Streamlit Dataset Processing and Retrieval Augmented Generation 
 - **Handle Duplicates**: Detect and remove duplicate entries.  
 - **Handle Outliers**: Identify and manage outliers for more accurate analysis.  
 - **Visualize Data**: Generate various charts and visualizations to explore the data.  
-- **Modeling**: Apply machine learning models and predictive analysis to your data.  
 - **Download**: Download the processed data in your preferred format.  
 - **RAG Chatbot**: Interact with the chatbot powered by an API or Ollama for data assistance and queries.
 
